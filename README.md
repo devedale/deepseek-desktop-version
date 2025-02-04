@@ -19,7 +19,13 @@
 -->
 </head>
 <!-- Header Section -->
-# DeepSeek Desktop Version ![MIT License](https://img.shields.io/badge/License-MIT-green.svg) ![Windows](https://img.shields.io/badge/Windows-Support-0078D6) ![macOS](https://img.shields.io/badge/macOS-Support-000000)
+
+# DeepSeek Desktop Version
+
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+![Windows](https://img.shields.io/badge/Windows-Support-0078D6)
+![macOS](https://img.shields.io/badge/macOS-Support-000000)
+
 
 **Unofficial Privacy-Focused Desktop Client for DeepSeek AI** - Native experience with offline-first design
 [![GitHub release](https://img.shields.io/github/v/release/devedale/deepseek-desktop-version)](https://github.com/devedale/deepseek-desktop-version/releases)
