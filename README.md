@@ -25,6 +25,7 @@
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Windows](https://img.shields.io/badge/Windows-Support-0078D6)
 ![macOS](https://img.shields.io/badge/macOS-Support-000000)
+![Linux](https://img.shields.io/badge/Linux-Support-FCC624)
 
 
 **Unofficial Privacy-Focused Desktop Client for DeepSeek AI** - Native experience with offline-first design
