@@ -3,8 +3,10 @@ name: Build Electron App
 on: [push, pull_request]
 
 jobs:
-  build:
+  build-mac:
     runs-on: macos-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Utilizza il token di GitHub
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -12,12 +14,51 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build for macOS and Linux
-        run: npm run build --mac --linux
+      - name: Build for macOS
+        run: npm run build --mac
 
-      - name: Upload artifacts
+      - name: Upload macOS artifact
         uses: actions/upload-artifact@v4
         with:
-          name: build-artifacts
+          name: mac-build-artifacts
           path: dist/
 
+  build-linux:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Utilizza il token di GitHub
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build for Linux
+        run: npm run build --linux
+
+      - name: Upload Linux artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-build-artifacts
+          path: dist/
+
+  build-windows:
+    runs-on: windows-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Utilizza il token di GitHub
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build for Windows
+        run: npm run build --win
+
+      - name: Upload Windows artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-build-artifacts
+          path: dist/
