@@ -17,8 +17,9 @@
 </div>
 
 <!-- Downloads Section -->
-
-<a align="center" href="https://www.buymeacoffee.com/devedale" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+<div align="center">
+  <a href="https://www.buymeacoffee.com/devedale" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+</div>
 
 
 ## 🚀 Instant Installation
