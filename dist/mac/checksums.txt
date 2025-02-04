@@ -1,0 +1,1 @@
+1c437c558b0d54fbbc501a47a6a26a6f5b88774d3bf05c688ed919d6fb42f808 *mac/Deepseek Chat-1.0.0-arm64.dmg
