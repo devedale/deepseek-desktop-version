@@ -1,0 +1,46 @@
+{
+    "name": "deepseek-app",
+    "version": "1.0.0",
+    "description": "A desktop app for chat.deepseek.com",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder"
+    },
+    "author": "Devedale",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^34.0.2",
+        "electron-builder": "^25.1.8"
+    },
+    "build": {
+        "appId": "com.devedale.deepseekapp",
+        "productName": "Deepseek Chat",
+        "directories": {
+            "output": "dist"
+        },
+        "win": {
+            "target": "nsis",
+            "icon": "icons/icon.ico"
+        },
+        "mac": {
+            "target": "dmg",
+            "icon": "icons/icon.icns"
+        },
+        "linux": {
+            "target": "AppImage",
+            "icon": "icons/icon.png"
+        },
+        "asar": true,
+        "asarUnpack": "**\\*.{node,dll}",
+        "extraResources": [
+            {
+                "from": "icons",
+                "to": "icons"
+            }
+        ],
+        "npmRebuild": false,
+        "nodeGypRebuild": false,
+        "buildDependenciesFromSource": false
+    }
+}
