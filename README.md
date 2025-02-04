@@ -3,20 +3,19 @@
   <meta name="keywords" content="DeepSeek Desktop Version, DeepSeek AI, desktop client, offline-first, privacy, open source, Windows, macOS, Linux, MIT License, AI chat" />
   <meta name="author" content="devedale" />
 <!--
-  <!-- Structured Data JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "DeepSeek Desktop Version",
-    "operatingSystem": "Windows, macOS, Linux",
-    "applicationCategory": "DesktopApplication",
-    "description": "An unofficial, privacy-focused desktop client for DeepSeek AI, offering an offline-first design and optimized performance for distraction-free AI chat experiences.",
-    "license": "MIT",
-    "url": "https://github.com/devedale/deepseek-desktop-version",
-    "image": "https://github.com/devedale/deepseek-desktop-version/raw/main/icons/icon.png"
-  }
-  </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "DeepSeek Desktop Version",
+  "operatingSystem": "Windows, macOS, Linux",
+  "applicationCategory": "DesktopApplication",
+  "description": "An unofficial, privacy-focused desktop client for DeepSeek AI, offering an offline-first design and optimized performance for distraction-free AI chat experiences.",
+  "license": "MIT",
+  "url": "https://github.com/devedale/deepseek-desktop-version",
+  "image": "https://github.com/devedale/deepseek-desktop-version/raw/main/icons/icon.png"
+}
+</script>
 -->
 </head>
 <!-- Header Section -->
