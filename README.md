@@ -18,13 +18,16 @@
 </div>
 
 <!-- Downloads Section -->
+
+<a href="https://www.buymeacoffee.com/devedale" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+
+
 ## 🚀 Instant Installation
 
 | Platform | Download | Size | Checksum |
 |----------|----------|------|----------|
-| Windows  | [Windows Installer](https://github.com/devedale/deepseek-desktop-version/releases/latest/download/deepseek-desktop-win.exe) | 82 MB | [Verify](checksums/SHA256SUMS.txt) |
-| macOS    | [macOS Intaller](https://github.com/devedale/deepseek-desktop-version/releases/latest/download/deepseek-desktop-mac.dmg) | 89 MB | [Verify](checksums/SHA256SUMS.txt) |
-| Linux    | [Linux Intaller](https://github.com/devedale/deepseek-desktop-version/releases/latest/download/deepseek-desktop-mac.dmg) | 89 MB | [Verify](checksums/SHA256SUMS.txt) |
+| Windows  | [Windows Installer](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/windows/Deepseek%20Chat%20Setup%201.0.0.exe) | 82 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/windows/checksums.txt) |
+| macOS    | [macOS Intaller](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/mac/Deepseek%20Chat-1.0.0-arm64.dmg) | 89 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/mac/checksums.txt) |
 
 *Why EXE/DMG files?*  
 Our native packages include everything needed for:  
