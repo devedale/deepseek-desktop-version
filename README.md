@@ -6,7 +6,6 @@
 [![GitHub release](https://img.shields.io/github/v/release/devedale/deepseek-desktop-version)](https://github.com/devedale/deepseek-desktop-version/releases)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/devedale/deepseek-desktop-version/build.yml)](https://github.com/devedale/deepseek-desktop-version/actions)
 
-![App Interface Preview](screenshot.png)
 
 <!-- Stars Callout -->
 <div align="center">
