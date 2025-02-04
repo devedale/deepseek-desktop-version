@@ -1,9 +1,32 @@
+<meta name="description" content="DeepSeek Desktop Version is an unofficial privacy-focused desktop client for DeepSeek AI. Designed with an offline-first approach, it offers optimized performance and cross-platform support on Windows, macOS, and Linux." />
+<meta name="keywords" content="DeepSeek Desktop Version, DeepSeek AI, desktop client, offline-first, privacy, open source, Windows, macOS, Linux, MIT License, AI chat" />
+<meta name="author" content="devedale" />
+
+<!-- Structured Data JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "DeepSeek Desktop Version",
+  "operatingSystem": "Windows, macOS, Linux",
+  "applicationCategory": "DesktopApplication",
+  "description": "An unofficial, privacy-focused desktop client for DeepSeek AI, offering an offline-first design and optimized performance for distraction-free AI chat experiences.",
+  "license": "MIT",
+  "url": "https://github.com/devedale/deepseek-desktop-version",
+  "image": "https://github.com/devedale/deepseek-desktop-version/raw/main/icons/icon.png"
+}
+</script>
+
 <!-- Header Section -->
 # DeepSeek Desktop Version ![MIT License](https://img.shields.io/badge/License-MIT-green.svg) ![Windows](https://img.shields.io/badge/Windows-Support-0078D6) ![macOS](https://img.shields.io/badge/macOS-Support-000000)
 
 **Unofficial Privacy-Focused Desktop Client for DeepSeek AI** - Native experience with offline-first design
 [![GitHub release](https://img.shields.io/github/v/release/devedale/deepseek-desktop-version)](https://github.com/devedale/deepseek-desktop-version/releases)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/devedale/deepseek-desktop-version/build.yml)](https://github.com/devedale/deepseek-desktop-version/actions)
+
+<p align="center">
+  <img src="icons/icon.png" width="60%" />
+</p>
 
 <!-- Stars Callout -->
 <div align="center">
