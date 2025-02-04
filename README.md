@@ -26,11 +26,17 @@
 ![Windows](https://img.shields.io/badge/Windows-Support-0078D6)
 ![macOS](https://img.shields.io/badge/macOS-Support-000000)
 ![Linux](https://img.shields.io/badge/Linux-Support-FCC624)
+<p></p>
+[![Built with Electron](https://img.shields.io/badge/Built%20with-Electron-blue)](https://electronjs.org)
 
 
-**Unofficial Privacy-Focused Desktop Client for DeepSeek AI** - Native experience with offline-first design
+**Unofficial Security-Focused Desktop Client for DeepSeek AI** 
+# DeepSeek Desktop Version – Unofficial Desktop Client for DeepSeek AI
 
-[![GitHub release](https://img.shields.io/github/v/release/devedale/deepseek-desktop-version)](https://github.com/devedale/deepseek-desktop-version/releases)
+DeepSeek Desktop Version is an unofficial desktop client for DeepSeek AI, developed using Electron to provide a native experience on Windows, macOS, and Linux. This application embeds a web page within a native window, allowing seamless safe and secure interaction with the DeepSeek AI interface.
+
+
+[![GitHub release](https://img.shields.io/github/v/release/devedale/deepseek-desktop-version?include_prereleases=true)](https://github.com/devedale/deepseek-desktop-version/releases)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/devedale/deepseek-desktop-version/build.yml)](https://github.com/devedale/deepseek-desktop-version/actions)
 
 <p align="center">
