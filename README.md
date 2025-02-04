@@ -28,7 +28,7 @@
 | macOS    | [macOS Intaller](https://github.com/devedale/deepseek-desktop-version/releases/download/v1.0.0/Deepseek.Chat-1.0.0-arm64.dmg) | 93,6 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/releases/download/v1.0.0/checksums_mac.txt) |
 | Linux    | [Linux Intaller](https://github.com/devedale/deepseek-desktop-version/releases/download/v1.0.0/Deepseek.Chat-1.0.0.AppImage) | 103 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/releases/download/v1.0.0/checksums_linux.txt) |
 
-*Why EXE/DMG files?*  
+*Why EXE/DMG/AppImage files?*  
 Our native packages include everything needed for:  
 ✅ Instant launch without dependencies  
 ✅ Hardware-optimized performance  
@@ -36,11 +36,11 @@ Our native packages include everything needed for:
 
 <!-- Features Section -->
 ## 🔥 Top Features
-- **Zero Tracking** - All data stays on your device
-- **Lightning Fast** - Native C++ core with WebView interface
-- **Encrypted Storage** - Local SQLite database with AES-256
-- **Cross-Platform** - Windows + macOS support (ARM/x64)
-- **Portable Mode** - Run from USB drive without installation
+- 🖥️ **Standalone Desktop App** – No need to keep a browser tab open!  
+- ⚡ **Fast & Lightweight** – Optimized for a seamless AI chat experience.  
+- 🌍 **Cross-Platform Support** – Works on **Windows, macOS, and Linux**.  
+- 🎨 **User-Friendly Interface** – Clean and simple UI for distraction-free conversations.  
+- 🔄 **Auto-Updates** – Stay up to date with the latest improvements.
 
 <!-- Build Section -->
 ## 🛠️ GitHub-Powered Builds
@@ -55,22 +55,50 @@ Our automated workflow makes compilation effortless:
    - Publishes to Releases
 3. Download from [Releases Page](https://github.com/devedale/deepseek-desktop-version/releases)
 
+
+<!-- Editor installation -->
+## 📥 Editor Installation  
+
+### 🏁 Windows  
+1. Download the latest `.exe` from the [Releases](https://github.com/devedale/deepseek-desktop-version/releases) page.  
+2. Run the installer and follow the setup instructions.  
+
+### 🍏 macOS  
+1. Download the `.dmg` file from the [Releases](https://github.com/devedale/deepseek-desktop-version/releases).  
+2. Open the `.dmg` and drag the app into your **Applications** folder.  
+
+### 🐧 Linux  
+1. Grab the `.AppImage` or `.deb` package from [Releases](https://github.com/devedale/deepseek-desktop-version/releases).  
+2. For AppImage:  
+   ```bash
+   chmod +x DeepSeek-Desktop.AppImage
+   ./DeepSeek-Desktop.AppImage
+   ```  
+3. For Debian-based systems (`.deb` package):  
+   ```bash
+   sudo dpkg -i deepseek-desktop.deb
+   sudo apt-get install -f  # Fix dependencies if needed
+   ```  
+
 <!-- Contribution Section -->
-## 👩💻 Become a Contributor!
+## 🛠️ Development & Contributions  
 
-This minimalist codebase is perfect for learning native development:
-```
-src/
-├── main.cpp           // Native entry point
-├── webview/           // System WebView wrapper
-├── security/          // Encryption modules
-└── storage/           // Local database handling
-```
+### 🔧 Setting Up Locally  
+If you want to modify or contribute:  
+```bash
+git clone https://github.com/devedale/deepseek-desktop-version.git
+cd deepseek-desktop-version
+npm install
+npm start
+```  
+Make sure you have **Node.js** and **Electron** installed.  
 
-We welcome all improvements!  
+We welcome all improvements! 
+✨ Add new feature! 
 🔧 Fix typos in docs  
 🛠️ Optimize build scripts  
 🔐 Enhance security modules  
+
 
 <!-- FAQ Section -->
 ## ❓ Essential FAQ
@@ -82,16 +110,46 @@ A: Contains all native dependencies - no runtime installations needed!
 A: 100% transparent code - compile yourself or verify checksums
 
 **Q: Data location?**  
-Windows: %LOCALAPPDATA%\DeepSeekDesktop  
-macOS: ~/Library/Caches/DeepSeek
+- **Windows:** %LOCALAPPDATA%\DeepSeekDesktop  
+- **macOS:** ~/Library/Caches/DeepSeek  
+- **Linux:** ~/.local/share/DeepSeekDesktop
 
 <!-- Footer Section -->
-## 📜 License & Community
-MIT Licensed - Free for personal/commercial use. Help us grow:  
-- ⭐ Star the repository  
-- 🐛 Report issues  
-- 📣 Share with colleagues  
+## 🌐 Community & Support
 
-*Not affiliated with DeepSeek Inc. DeepSeek® is a registered trademark.*
+**Help us improve!** Choose your contribution method:
 
-[![Star History Chart](https://api.star-history.com/svg?repos=devedale/deepseek-desktop-version&type=Date)](https://star-history.com/#devedale/deepseek-desktop-version&Date)
+[![GitHub Stars](https://img.shields.io/github/stars/devedale/deepseek-desktop-version?style=for-the-badge&logo=github)](https://github.com/devedale/deepseek-desktop-version/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/devedale/deepseek-desktop-version?style=for-the-badge&logo=github)](https://github.com/devedale/deepseek-desktop-version/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/devedale/deepseek-desktop-version?style=for-the-badge&logo=github)](https://github.com/devedale/deepseek-desktop-version/issues)
+
+<div align="center">
+  <a href="https://www.buymeacoffee.com/devedale" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+</div>
+
+**Stay Updated:**  
+[![Watch on GitHub](https://img.shields.io/github/watchers/devedale/deepseek-desktop-version?style=social)](https://github.com/devedale/deepseek-desktop-version/subscription)
+
+## ⚠️ Important Disclaimers
+
+❗ **Unofficial Implementation**  
+This is a community-driven, open source project **not affiliated** with DeepSeek Inc. The DeepSeek® name and logo are registered trademarks of their respective owners.
+
+🔒 **Data Responsibility**  
+While we implement privacy-focused features, users are ultimately responsible for:
+- Compliance with DeepSeek's Terms of Service
+- Sensitive data handling
+- Local data storage management
+
+📜 **License Notice**  
+MIT Licensed - Free for personal and commercial use. See full [LICENSE](LICENSE) for details.
+
+## 🤖 About DeepSeek AI
+
+DeepSeek is a leading AI research company specializing in advanced conversational models. The **Deepseek Desktop Version** provides enhanced access to their cutting-edge AI capabilities through:
+
+- Local conversation history storage
+- Customizable interface options
+- Optimized performance for extended dialogues
+
+[Official DeepSeek Website](https://www.deepseek.com) | [API Documentation](https://platform.deepseek.com/docs)
