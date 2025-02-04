@@ -27,7 +27,7 @@
 ![macOS](https://img.shields.io/badge/macOS-Support-000000)
 ![Linux](https://img.shields.io/badge/Linux-Support-FCC624)
 
-[![Built with Electron](https://img.shields.io/badge/Built%20with-Electron-blue)](https://electronjs.org)]
+[![Built with Electron](https://img.shields.io/badge/Built%20with-Electron-blue)](https://electronjs.org)
 
 
 **Unofficial Security-Focused Desktop Client for DeepSeek AI** 
