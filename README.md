@@ -26,8 +26,8 @@
 
 | Platform | Download | Size | Checksum |
 |----------|----------|------|----------|
-| Windows  | [Windows Installer](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/windows/Deepseek%20Chat%20Setup%201.0.0.exe) | 82 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/windows/checksums.txt) |
-| macOS    | [macOS Intaller](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/mac/Deepseek%20Chat-1.0.0-arm64.dmg) | 89 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/mac/checksums.txt) |
+| Windows  | [Windows Installer](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/windows/Deepseek%20Chat%20Setup%201.0.0.exe) | 78,7 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/windows/checksums.txt) |
+| macOS    | [macOS Intaller](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/mac/Deepseek%20Chat-1.0.0-arm64.dmg) | 93,6 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/mac/checksums.txt) |
 
 *Why EXE/DMG files?*  
 Our native packages include everything needed for:  
