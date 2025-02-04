@@ -23,7 +23,8 @@
 | Platform | Download | Size | Checksum |
 |----------|----------|------|----------|
 | Windows  | [Windows Installer](https://github.com/devedale/deepseek-desktop-version/releases/latest/download/deepseek-desktop-win.exe) | 82 MB | [Verify](checksums/SHA256SUMS.txt) |
-| macOS    | [macOS Bundle](https://github.com/devedale/deepseek-desktop-version/releases/latest/download/deepseek-desktop-mac.dmg) | 89 MB | [Verify](checksums/SHA256SUMS.txt) |
+| macOS    | [macOS Intaller](https://github.com/devedale/deepseek-desktop-version/releases/latest/download/deepseek-desktop-mac.dmg) | 89 MB | [Verify](checksums/SHA256SUMS.txt) |
+| Linux    | [Linux Intaller](https://github.com/devedale/deepseek-desktop-version/releases/latest/download/deepseek-desktop-mac.dmg) | 89 MB | [Verify](checksums/SHA256SUMS.txt) |
 
 *Why EXE/DMG files?*  
 Our native packages include everything needed for:  
