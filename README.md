@@ -123,9 +123,13 @@ A: 100% transparent code - compile yourself or verify checksums
 [![GitHub Forks](https://img.shields.io/github/forks/devedale/deepseek-desktop-version?style=for-the-badge&logo=github)](https://github.com/devedale/deepseek-desktop-version/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/devedale/deepseek-desktop-version?style=for-the-badge&logo=github)](https://github.com/devedale/deepseek-desktop-version/issues)
 
-<div align="center">
-  <a href="https://www.buymeacoffee.com/devedale" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
-</div>
+
+
+
+<a href="https://www.buymeacoffee.com/devedale" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+
+
+
 
 **Stay Updated:**  
 [![Watch on GitHub](https://img.shields.io/github/watchers/devedale/deepseek-desktop-version?style=social)](https://github.com/devedale/deepseek-desktop-version/subscription)
