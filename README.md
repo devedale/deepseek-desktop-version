@@ -44,6 +44,8 @@
 </div>
 
 
+![Client Interaction](video.gif)
+
 ## 🚀 Instant Installation
 
 | Platform | Download | Size | Checksum |
