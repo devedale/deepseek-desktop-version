@@ -2,11 +2,8 @@
 # DeepSeek Desktop Version ![MIT License](https://img.shields.io/badge/License-MIT-green.svg) ![Windows](https://img.shields.io/badge/Windows-Support-0078D6) ![macOS](https://img.shields.io/badge/macOS-Support-000000)
 
 **Unofficial Privacy-Focused Desktop Client for DeepSeek AI** - Native experience with offline-first design
-
 [![GitHub release](https://img.shields.io/github/v/release/devedale/deepseek-desktop-version)](https://github.com/devedale/deepseek-desktop-version/releases)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/devedale/deepseek-desktop-version/build.yml)](https://github.com/devedale/deepseek-desktop-version/actions)
-
-![App Interface Preview](screenshot.png)
 
 <!-- Stars Callout -->
 <div align="center">
@@ -18,16 +15,18 @@
 </div>
 
 <!-- Downloads Section -->
-
-<a align="center" href="https://www.buymeacoffee.com/devedale" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+<div align="center">
+  <a href="https://www.buymeacoffee.com/devedale" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+</div>
 
 
 ## 🚀 Instant Installation
 
 | Platform | Download | Size | Checksum |
 |----------|----------|------|----------|
-| Windows  | [Windows Installer](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/windows/Deepseek%20Chat%20Setup%201.0.0.exe) | 82 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/windows/checksums.txt) |
-| macOS    | [macOS Intaller](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/mac/Deepseek%20Chat-1.0.0-arm64.dmg) | 89 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/blob/main/dist/mac/checksums.txt) |
+| Windows  | [Windows Installer](https://github.com/devedale/deepseek-desktop-version/releases/download/v1.0.0/Deepseek.Chat.Setup.1.0.0.exe) | 78,8 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/releases/download/v1.0.0/checksums_windows.txt) |
+| macOS    | [macOS Intaller](https://github.com/devedale/deepseek-desktop-version/releases/download/v1.0.0/Deepseek.Chat-1.0.0-arm64.dmg) | 93,6 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/releases/download/v1.0.0/checksums_mac.txt) |
+| Linux    | [Linux Intaller](https://github.com/devedale/deepseek-desktop-version/releases/download/v1.0.0/Deepseek.Chat-1.0.0.AppImage) | 103 MB | [Verify](https://github.com/devedale/deepseek-desktop-version/releases/download/v1.0.0/checksums_linux.txt) |
 
 *Why EXE/DMG files?*  
 Our native packages include everything needed for:  
